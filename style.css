@@ -133,3 +133,9 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+}
