@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Monsterrat', sans-serif;
+
+}
+
+.hero {
+    background-color: #d3e7e8;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.hero img {
+    position: absolute;
+    bottom: 0;
+}
+
+.hero .mountain_1 {
+    left: 0;
+    width: 40%;
+}
+
+.mountain_2 {
+    width: 40%;
+}
+
+.hero .mountain_3 {
+    right: 0;
+    width: 40%;
+}
+
+.cloud-moving-green {
+    width: 15%;
+    top: -100px;
+    left: 400px;
+}
+
+.sun-cloud {
+    position: absolute;
+    width: 10%;
+    top: 100px;
+    right: 100px;
+}
+
+.cloud {
+    width: 20%;
+    top: 400px;
+    left: 100px;
+}
+
+#about {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid black;
+    background-color: #51C4D3;
+}
+
+#about .cloud-about {
+    position: absolute;
+    width: 10%;
+    bottom: 40px;
+    left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .sun-cloud {
+        width: 30%;
+        right: 0;
+    }
+
+    #about .cloud-about {
+        width: 20%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+#contact {
+    width: 100%;
+}
+
+#contact button {
+    background-color: #51C4D3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    letter-spacing: 0.2rem;
+}
+
+#contact button:hover {
+    background-color: #66dae9;
+}
+
+footer {
+    background-color: #126E82;
+}
+
+footer i {
+    font-size: 1.3rem;
+    color: #126E82;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer span {
+    letter-spacing: 1.2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
